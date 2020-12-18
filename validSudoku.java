@@ -4,7 +4,7 @@ public class validSudoku {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char[][] puzzle = {{'1', '2', '3'}, {'2', '3', '1'}, {'1', '3', '2'}};
+		char[][] puzzle = {{'1', '2', '3'}, {'2', '3', '1'}, {'3', '1', '2'}};
 		System.out.println(validate(puzzle));
 	}
 	
